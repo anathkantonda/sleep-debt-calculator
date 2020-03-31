@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 128, 128));
+    font-family: 'Caveat', cursive;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 3px 20px 7px rgb(78, 76, 82);
+    /* box-shadow: 2px 3px 10px rgb(177, 134, 177); */
+}
+
+.normal {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10vh;
+    font-size: 2em;
+}
+
+label {
+    font-size: 1.5em;
+}
+
+input[type=text] {
+    width: 70px;
+    margin-left: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+#wednesday {
+    margin-left: 13px;
+}
+
+#thursday {
+    margin-left: 24px;
+}
+
+#friday {
+    margin-left: 47px;
+}
+
+#saturday {
+    margin-left: 23px;
+}
+
+#sunday {
+    margin-left: 40px;
+}
+
+.ok {
+    width: 100px;
+    height: 50px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fadeIn {
+    opacity: 1;
+    pointer-events: all;
+}
+
+#val {
+    margin-left: -10px;
+    width: 90px;
+}
+
+.ok2 {
+    width: 95px;
+    height: 50px;
+    margin-left: -10px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.result {
+    margin-top: 10vh;
+    font-size: 35px;
+}
+
+.clear {
+    width: 80px;
+    height: 50px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}

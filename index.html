@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Gotu&display=swap" rel="stylesheet">
+    <title>Sleep Debt Calculator</title>
+</head>
+<body>
+    <h1>Sleep Debt Calculator</h1>
+    <div class="normal">
+        <h2>How many hours of sleep did you get on:</h2><br>
+        <form>
+            <label for="monday">Monday: </label>
+            <input type="text" id="monday" /><br>
+
+            <label for="tuesday">Tuesday: </label>
+            <input type="text" id="tuesday" /><br>
+
+            <label for="wednesday">Wednesday: </label>
+            <input type="text" id="wednesday" /><br>
+
+            <label for="thursday">Thursday: </label>
+            <input type="text" id="thursday" /><br>
+
+            <label for="friday">Friday: </label>
+            <input type="text" id="friday" /><br>
+
+            <label for="saturday">Saturday: </label>
+            <input type="text" id="saturday" /><br>
+
+            <label for="sunday">Sunday: </label>
+            <input type="text" id="sunday" /><br>
+        </form>
+        <button class="ok">Ok</button>
+
+            <div class="desired fadeOut">
+                <h2>How many hours of sleep would you desire to get each night:</h2>
+
+                <form>
+                    <input type="text" id="val"><br>
+                </form>
+                <button class="ok2">Ok</button><br>
+            </div>
+            <!-- <button class="calculate fadeOut">Calculate sleep debt</button> -->
+
+        <h3 class="result fadeOut">The Result is</h3><br>
+        <button type="reset" class="clear fadeOut">Clear</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
